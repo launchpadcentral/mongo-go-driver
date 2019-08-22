@@ -3,7 +3,7 @@ package topology
 import (
 	"context"
 	"errors"
-	"go.mongodb.org/mongo-driver/x/mongo/driver/address"
+	"github.com/launchpadcentral/mongo-go-driver/x/mongo/driver/address"
 	"net"
 
 	"sync/atomic"

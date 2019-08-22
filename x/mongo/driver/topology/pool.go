@@ -12,8 +12,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go.mongodb.org/mongo-driver/event"
-	"go.mongodb.org/mongo-driver/x/mongo/driver/address"
+	"github.com/launchpadcentral/mongo-go-driver/event"
+	"github.com/launchpadcentral/mongo-go-driver/x/mongo/driver/address"
 )
 
 // ErrPoolConnected is returned from an attempt to connect an already connected pool
